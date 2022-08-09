@@ -1,0 +1,158 @@
+/* font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Inspiration', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Source Sans Pro', sans-serif;
+ */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .hero{
+    height:100vh;
+    background: linear-gradient(45deg, rgb(113, 98, 98), rgb(73, 73, 149));
+} */
+/*.name{
+ height: 15vh;
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red; 
+
+} */
+.logo{
+    padding: 0px 50px;
+    font-size: 30px;
+    background: linear-gradient(45deg, red, rgb(73, 8, 235));
+}
+#logo{
+    color: blue;
+    font-size: 50px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.heading .head{
+    padding:0;
+    font-size: 4rem; 
+    font-weight: 800; 
+    font-family: 'Inspiration', cursive;
+    color: rgba(47, 47, 196, 0.984);
+}
+ .page{
+    padding: 0;
+    font-size: 30px;
+    font-family: 'Ibarra Real Nova', serif;
+  
+}
+.box{
+    padding: 10px 20px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.box .price{
+    /* border: 1px solid rgb(68, 49, 49); */
+    margin-top: 10px;
+   height: 8rem;
+   width: 12rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   box-shadow:0 2px 10px rgba(0,0,0,0.9) ; 
+   
+}
+.box .price:hover{
+background-color: rgb(230, 230, 240);
+
+}
+#line{
+    margin-top: 10px;
+    height: 6rem;
+    border-left: 2px solid rgba(88, 85, 85, 0.5);
+}
+#img{
+    width: 20px;
+}
+#img2{
+    width: 12px;
+}
+#rupee{
+    text-transform: uppercase;
+    text-decoration: line-through;
+    
+}
+.box .price p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box .price #gg{
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 10px;
+}
+.vo{
+    font-size: 20px;
+    color: rgba(11, 11, 226, 0.955);
+}
+.num{
+    font-size: 30px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 400px;  
+  user-select: none; /*when we select green border not shows*/
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    background: linear-gradient(45deg, red, rgb(73, 8, 235));
+}
+.bottom .bottom-border{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.bottom-border .bank2 img{
+    width: 300px;
+}
+.bottom-border .bank2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cashback{
+font-size: 25px;
+font-weight: 500;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cashback span{
+    color: rgb(8, 2, 2);
+    font-size: 12px;
+    font-weight: 900;
+}
